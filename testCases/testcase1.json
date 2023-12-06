@@ -1,0 +1,314 @@
+{
+  "name": "ed73bc79-c150-425b-aa46-38e90767ccf5",
+  "displayName": "testcase1",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hi "
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Hi! How are you doing?" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "i want to donate blood"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To donate blood, you must be 18-75 years old, healthy and weigh over 50 kg. You can also take our blood eligibility quiz to see if you're eligible. Would you like to take the eligibility quiz to find out if you can donate blood, and start changing lives?" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirmation.yes"
+      },
+      "currentPage": {
+        "name": "Eligibility Quiz",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "How old are you?" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "23"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Eligibility Quiz",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "What is your correct weight?" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "60"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Eligibility Quiz",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ " Dear [user],\n\nThank you for your interest in donating blood. We appreciate your willingness to help others in need.\n\nIn order to be eligible to donate blood, you must meet the following criteria:\n\n* Be at least 18 years old and no older than 75 years old.\n* Weigh at least 50 kg.\n\nBased on the information you provided, you are 23 years old and weigh 60 kg. Therefore, you meet the eligibility criteria and are able to donate blood.\n\nWe are grateful for your willingness to donate blood. Your donation will help to save lives.\n\nSincerely" ],
+        "containAiGeneratedContent": true,
+        "containGeneratorsContent": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "can a person with low bp can donate blood"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Eligibility Quiz",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, people with low blood pressure can donate blood. However, your blood pressure will need to be checked before you donate to make sure it is within the acceptable range. Would you like to take the eligibility quiz to find out if you can donate blood, and start changing lives?" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      }, {
+        "text": [ " Dear [user],\n\nThank you for your interest in donating blood. We appreciate your willingness to help others in need.\n\nIn order to be eligible to donate blood, you must meet the following criteria:\n\n* Be at least 18 years old and no older than 75 years old.\n* Weigh at least 50 kg.\n\nBased on the information you provided, you are 23 years old and weigh 60 kg. Therefore, you meet the eligibility criteria and are able to donate blood.\n\nWe are grateful for your willingness to donate blood. Your donation will help to save lives.\n\nSincerely" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containGeneratorsContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "can a person with diabeits can donate blood"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Eligibility Quiz",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, people with diabetes can donate blood. However, they must meet the same eligibility criteria as everyone else, such as being at least 18 years old and weighing at least 50 kg. They will also need to have their blood sugar levels checked before they donate to make sure they are within the acceptable range. Would you like to take the eligibility quiz to find out if you can donate blood, and start changing lives?" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      }, {
+        "text": [ " Dear [user],\n\nThank you for your interest in donating blood. We appreciate your willingness to help others in need.\n\nIn order to be eligible to donate blood, you must meet the following criteria:\n\n* Be at least 18 years old and no older than 75 years old.\n* Weigh at least 50 kg.\n\nBased on the information you provided, you are 23 years old and weigh 60 kg. Therefore, you meet the eligibility criteria and are able to donate blood.\n\nWe are grateful for your willingness to donate blood. Your donation will help to save lives.\n\nSincerely" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containGeneratorsContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what is the diet of a donar person"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Eligibility Quiz",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If you donate blood, we recommend a healthy iron-enriched diet. Women aged 18-45 are particularly susceptible to low iron because of menstruation and pregnancy so we recommend a short course of iron supplements each time after you give blood (but not plasma). Would you like to take the eligibility quiz to find out if you can donate blood, and start changing lives?" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      }, {
+        "text": [ " Dear [user],\n\nThank you for your interest in donating blood. We appreciate your willingness to help others in need.\n\nIn order to be eligible to donate blood, you must meet the following criteria:\n\n* Be at least 18 years old and no older than 75 years old.\n* Weigh at least 50 kg.\n\nBased on the information you provided, you are 23 years old and weigh 60 kg. Therefore, you meet the eligibility criteria and are able to donate blood.\n\nWe are grateful for your willingness to donate blood. Your donation will help to save lives.\n\nSincerely" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containGeneratorsContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how should be daily person routine for blood donation"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Eligibility Quiz",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "There is no specific daily routine for blood donors. However, it is important to eat a healthy diet and get enough sleep in order to maintain a healthy blood count. It is also important to drink plenty of fluids before and after donating blood to help replace the fluids that are lost during the donation process." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "can a person with high haemoglobin can donate blood "
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Eligibility Quiz",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, a person with high haemoglobin can donate blood. The acceptable haemoglobin ranges for female donors are 120–165 g/L and for male donors are 130–185g/L. Would you like to take the eligibility quiz to find out if you can donate blood, and start changing lives?" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      }, {
+        "text": [ " Dear [user],\n\nThank you for your interest in donating blood. We appreciate your willingness to help others in need.\n\nIn order to be eligible to donate blood, you must meet the following criteria:\n\n* Be at least 18 years old and no older than 75 years old.\n* Weigh at least 50 kg.\n\nBased on the information you provided, you are 23 years old and weigh 60 kg. Therefore, you meet the eligibility criteria and are able to donate blood.\n\nWe are grateful for your willingness to donate blood. Your donation will help to save lives.\n\nSincerely" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containGeneratorsContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "generate summary"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Content Summarization"
+      },
+      "currentPage": {
+        "name": "Eligibility Quiz",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "$session.conversation_summary" ],
+        "containAiGeneratedContent": true,
+        "containGeneratorsContent": true
+      }, {
+        "text": [ " Dear [user],\n\nThank you for your interest in donating blood. We appreciate your willingness to help others in need.\n\nIn order to be eligible to donate blood, you must meet the following criteria:\n\n* Be at least 18 years old and no older than 75 years old.\n* Weigh at least 50 kg.\n\nBased on the information you provided, you are 23 years old and weigh 60 kg. Therefore, you meet the eligibility criteria and are able to donate blood.\n\nWe are grateful for your willingness to donate blood. Your donation will help to save lives.\n\nSincerely" ],
+        "containAiGeneratedContent": true,
+        "containGeneratorsContent": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1700218732,
+    "nanos": 392105000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

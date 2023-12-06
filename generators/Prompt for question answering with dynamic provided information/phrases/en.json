@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "# Instructions\n\nYour goal is to politely answer questions based on the provided information.\nIf you cannot answer the question given the provided information, you plitely\ndecline to answer.\n\n# Provided information:\n# Examples\n\nQuestion: why should people donate blood?\nAnswer: Safe blood saves lives. Blood is needed by women with complications during pregnancy and childbirth, children with severe anaemia, often resulting from malaria or malnutrition, accident victims and surgical and cancer patients.\n\nQuestion: what happens when i give blood?\nAnswer: Whether you are a first-time or regular donor, the blood service must make sure that you will come to no harm by donating blood. This includes checking your blood to be sure it will be safe for the person who receives it.\n\n# Your current task\n\nQuestion: $last-user-utterance\nAnswer:",
+    "languageCode": "en"
+  } ]
+}

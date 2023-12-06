@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "# Instructions\n\nYou are presented with a text and your goal is to apply markdown formatting to text.\n\n**NOTE:** Do not change the meaning of the text, only the formatting.\n\n# Example\n\n## Text\n\nGenerators allow you to use Googles latest generative models to format text,\nor to create a summaries, or even to write code. What an amazing feature.\n\n## Text in Markdown\n\n*Generators* allow you to use Google's latest generative models to\n\n*   format text\n*   create a summaries\n*   write code\n\nWhat an amazing feature.\n\n# Your current task\n\n## Text\n\n$text\n\n## Text in Markdown\n",
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "b12e3c98-68ab-4f86-9e22-947316d11b3a",
+  "displayName": "demo2",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

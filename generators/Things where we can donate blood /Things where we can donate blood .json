@@ -1,0 +1,17 @@
+{
+  "name": "ece1d4ee-f0c8-4cd7-833f-e32f5dce6656",
+  "displayName": "Things where we can donate blood ",
+  "placeholders": [ {
+    "id": "city",
+    "name": "city"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

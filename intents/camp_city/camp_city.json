@@ -1,0 +1,10 @@
+{
+  "name": "474a6294-6acb-4b08-9b78-772af80c6416",
+  "displayName": "camp_city",
+  "parameters": [ {
+    "id": "geo-city",
+    "entityType": "@sys.geo-city"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

@@ -1,0 +1,17 @@
+{
+  "name": "cd686ed6-a6bd-4fbe-9f4a-5047324de331",
+  "displayName": "Content Summarizer demo",
+  "placeholders": [ {
+    "id": "Conversation",
+    "name": "Conversation"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

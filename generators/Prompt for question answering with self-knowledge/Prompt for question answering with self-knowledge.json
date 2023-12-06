@@ -1,0 +1,13 @@
+{
+  "name": "5263cd5f-acd1-4b17-a72b-9baa6697f6ce",
+  "displayName": "Prompt for question answering with self-knowledge",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

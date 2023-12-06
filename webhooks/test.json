@@ -1,0 +1,10 @@
+{
+  "name": "aa73480c-bdb8-416e-a054-7728982cf84f",
+  "displayName": "test",
+  "genericWebService": {
+    "uri": "https://43e2-182-156-21-2.ngrok-free.app/webhook"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

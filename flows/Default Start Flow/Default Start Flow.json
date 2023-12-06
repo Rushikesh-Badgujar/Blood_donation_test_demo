@@ -1,0 +1,87 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "Every drop counts! Your blood donation can save up to three lives.\n\n It's a simple gesture with a profound impact on those in need.\n\nWhat to Expect:\n🩸 Safe Environment: Our camp follows strict safety and hygiene protocols.\n🩸 Quick and Painless: The donation process is fast and virtually painless.\n🩸 Refreshments: Enjoy complimentary snacks and refreshments after your donation.\n🩸 Community Spirit: Connect with like-minded individuals who share the passion for giving back.\n\nWho Can Donate:\nAnyone in good health, aged 18-65, can be a hero! Don't forget to bring a valid ID.\n\nSpread the Word:\nUse #DonateLife and #BloodHeroes to share your journey and inspire others to join this life-saving cause.\n\nYour generosity can create a ripple effect of hope and healing. Let's come together and make a positive impact on the lives of those in need. See you there!\n\n🩸❤️ Donate Blood, Save Lives! ❤️🩸",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "9ce53f63-f40a-47fb-9f31-650e8f710207"
+  }, {
+    "intent": "confirmation.yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Eligibility Quiz",
+    "name": "08039913-748c-4a2e-a86d-2e40a6be4b21"
+  }, {
+    "intent": "camp_city",
+    "triggerFulfillment": {
+    
+    },
+    "name": "6fc26d28-4cd1-4d2f-bb6b-bed628bdaf9a"
+  }, {
+    "intent": "markdown",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Markdown",
+    "name": "2e352aab-9e85-45e1-8a21-9ba78a3d4791"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "eb3d171d-c5e6-499a-9f47-583213c9293a"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d993bdb2-32b0-42df-a54b-b4116e00816e"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.69999999,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0] Would you like to take the eligibility quiz to find out if you can donate blood, and start changing lives?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "languageCode": "en",
+        "knowledgeInfoCard": {
+        
+        }
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/860899160593/locations/global/collections/default_collection/dataStores/australian-red-cross-lifeb_1699356332483",
+      "languageCode": "en"
+    } ]
+  }
+}

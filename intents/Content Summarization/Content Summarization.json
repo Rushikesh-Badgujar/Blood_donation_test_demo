@@ -1,0 +1,6 @@
+{
+  "name": "dd0acf6b-0f82-415c-a842-6d94491aa722",
+  "displayName": "Content Summarization",
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

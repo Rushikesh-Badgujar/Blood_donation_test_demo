@@ -1,0 +1,26 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "camp location",
+      "parameterId": "geo-city",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cityname",
+      "parameterId": "geo-city",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "where is the location of blood donation camp",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

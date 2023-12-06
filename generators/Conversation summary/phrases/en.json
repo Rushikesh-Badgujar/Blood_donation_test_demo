@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "Your goal is to summarize a given conversation between a Human and an AI.\n\nConversation:\n${conversation USER:\"Human:\" AGENT:\"AI:\"}Human: $last-user-utterance\n\nA concise summary of the conversation in 1 or 2 sentences is:\n",
+    "languageCode": "en"
+  } ]
+}

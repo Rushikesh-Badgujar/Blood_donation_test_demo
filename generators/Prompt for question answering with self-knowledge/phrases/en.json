@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "Your goal is to politely reply to a human with an answer to their question.\n\nThe human asked:\n$last-user-utterance\n\nYou answer:",
+    "languageCode": "en"
+  } ]
+}

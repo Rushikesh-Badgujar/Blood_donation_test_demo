@@ -1,0 +1,77 @@
+{
+  "name": "233a023f-489d-406c-a3e2-9024fa164b79",
+  "displayName": "Eligibility Quiz",
+  "form": {
+    "parameters": [ {
+      "displayName": "name",
+      "required": true,
+      "entityType": "@sys.person",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "May i know your name?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "age-weight",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "How old are you?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "weight",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is your correct weight?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "webhook": "test",
+    "tag": "test",
+    "returnPartialResponses": true
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.generative.eligibility-outcome" ]
+        },
+        "languageCode": "en"
+      } ],
+      "generators": [ {
+        "generator": "projects/support-bpdb/locations/global/agents/271f37d9-d7ff-4f3e-9f4f-298010f7f620/generators/870498cf-eb90-4641-96e7-ea8886085ff7",
+        "inputParameters": [ {
+          "key": "age",
+          "value": "$session.params.age"
+        }, {
+          "key": "weight",
+          "value": "$session.params.weight"
+        } ],
+        "outputParameter": "$request.generative.eligibility-outcome"
+      } ]
+    },
+    "name": "ebb2900a-afb4-4bb8-8b61-77ae51018c88"
+  } ]
+}

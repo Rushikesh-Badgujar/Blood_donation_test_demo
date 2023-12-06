@@ -1,0 +1,13 @@
+{
+  "name": "369626bd-0477-46e2-aafb-1e416d87e375",
+  "displayName": "Content Summarization of User chat",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 801,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

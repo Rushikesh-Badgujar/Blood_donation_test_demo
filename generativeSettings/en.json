@@ -1,0 +1,37 @@
+{
+  "fallbackSettings": {
+    "selectedPrompt": "Default"
+  },
+  "generativeSafetySettings": {
+    "bannedPhrases": [ {
+      "text": "Donate blood and you'll never get sick again!",
+      "languageCode": "en"
+    }, {
+      "text": "Give blood, lose weight instantly!",
+      "languageCode": "en"
+    }, {
+      "text": "Donate blood, and you'll live forever!",
+      "languageCode": "en"
+    }, {
+      "text": "Blood donation cures all illnesses!",
+      "languageCode": "en"
+    }, {
+      "text": "Donate blood, and your problems will disappear!",
+      "languageCode": "en"
+    }, {
+      "text": "Blood donation is a waste of time.",
+      "languageCode": "en"
+    } ]
+  },
+  "languageCode": "en",
+  "knowledgeConnectorSettings": {
+    "business": "Save a Life",
+    "agent": "Donate",
+    "agentIdentity": "chatbot",
+    "businessDescription": "a fictitious organisation",
+    "agentScope": "humans with eligibility information",
+    "llmModelSettings": {
+      "model": "text-bison"
+    }
+  }
+}

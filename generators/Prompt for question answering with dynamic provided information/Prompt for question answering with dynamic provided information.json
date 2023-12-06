@@ -1,0 +1,13 @@
+{
+  "name": "140e3940-3fac-46fc-b43d-7f4a14d6d87d",
+  "displayName": "Prompt for question answering with dynamic provided information",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "84efa667-6285-4a20-ac7a-0844dbc67d74",
+  "displayName": "Markdown formating",
+  "placeholders": [ {
+    "id": "text",
+    "name": "text"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

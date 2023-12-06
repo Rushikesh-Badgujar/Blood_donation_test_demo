@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "Summarize the conversation so far: $conversation.",
+    "languageCode": "en"
+  } ]
+}

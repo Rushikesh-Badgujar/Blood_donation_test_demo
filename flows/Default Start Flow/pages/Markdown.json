@@ -1,0 +1,13 @@
+{
+  "name": "f4ea1dd5-b88d-4622-ba1d-b18444f016c9",
+  "displayName": "Markdown",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "generators": [ {
+      "generator": "projects/support-bpdb/locations/global/agents/271f37d9-d7ff-4f3e-9f4f-298010f7f620/generators/140e3940-3fac-46fc-b43d-7f4a14d6d87d",
+      "outputParameter": "$request.generative.res"
+    } ]
+  }
+}
